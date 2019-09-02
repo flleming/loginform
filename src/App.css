@@ -1,0 +1,40 @@
+div {
+  text-align: center;
+  padding: 40px;
+  margin: 0px;
+}
+
+.Tab {
+  color: #191919;
+}
+.icon {
+  height: 50px;
+  color: black;
+}
+.facebook {
+  color: gray;
+  width: 30px;
+  height: 30px;
+}
+.gitlab {
+  width: 30px;
+  height: 30px;
+  color: gray;
+}
+.node {
+  width: 30px;
+  height: 30px;
+  color: gray;
+}
+.facebook:hover {
+  color: #3b5998;
+}
+.node:hover {
+  color: #3c873a;
+}
+.gitlab:hover {
+  color: #e24329;
+}
+.container_navbar {
+  background-color: #3b5998;
+}

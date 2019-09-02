@@ -1,0 +1,81 @@
+body{
+    font-family:sans-serif;
+    background:white;
+  }
+  
+  .login-form{
+    width:400px;
+    padding:50px;
+    top:50%;
+    position: relative;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#0e2f75;
+    text-align:center;
+    margin-top: 150px;
+  }
+  
+  .login-form h1{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:500;
+  }
+  
+  .login-form input[type="email"], .login-form input[type="Password"]{
+    border:0;
+    background:none;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #fff;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:#fff;
+    border-radius:24px;
+    transition:0.25s;
+  
+  }
+  
+  input[type="email"].white:focus{
+    width:280px;
+    border-color:#2ecc71;
+  }
+  
+  .login-form input[type="submit"]{
+     border:0;
+    background:none;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #2ecc71;
+    padding:14px 40px;
+    outline:none;
+    color:#fff;
+    border-radius:24px;
+    transition:0.25s;
+    cursor:pointer;
+    
+  }
+  
+  .login-form input[type="submit"]:hover{
+    background: #2ecc71;
+  }
+input[type="email"].wrong:focus {
+    border-color: red ;
+    width: 280px;
+    
+}
+.login-form input[type="password"]:focus,.login-form input[type="email"]:focus{
+  width: 280px;
+}
+input[type="email"].hello:focus {
+  width: 280px;
+  
+}
+.h33{
+  color: white;
+  display: none;
+}
